@@ -3,12 +3,13 @@ import './App.css';
 import SteveMartin from './SteveMartin';
 import ChevyChase from './ChevyChase';
 import MartinShort from './MartinShort';
+import { Route } from 'react-router-dom';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      
+
     }
   }
 
@@ -16,9 +17,9 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-          <SteveMartin />
-          <ChevyChase />
-          <MartinShort />
+          <Route path="/luckyday" component={SteveMartin} />
+          <Route path="/dustybottoms" component={ChevyChase} />
+          <Route path="/nednederlander" component={MartinShort} />
         </header>
       </div>
     );
