@@ -4,7 +4,7 @@ export default function ChevyChase() {
   return (
     <div>
       <h1>Dusty Bottoms</h1>
-      <img alt="dusty" className="dusty" src='./img/DustyBottoms.png' />
+      <img alt="dusty" className="three" src='./img/DustyBottoms.png' />
     </div>
   )
 }
